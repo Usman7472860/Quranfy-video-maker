@@ -12,6 +12,7 @@ Videos is server se **nahi** guzarti — app seedha Facebook/TikTok ko upload ka
 | `PUBLIC_URL` | deploy hone ke baad ka URL, jaise `https://qvm-auth.vercel.app` (aakhir mein `/` nahi) |
 | `SEAL_KEY` | 32 random bytes base64: `node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"` |
 | `FB_APP_ID`, `FB_APP_SECRET` | Meta app se |
+| `FB_CONFIG_ID` | (sirf agar Meta app mein "Facebook Login for Business" hai) Configurations mein banayi hui Configuration ka ID |
 | `TT_CLIENT_KEY`, `TT_CLIENT_SECRET` | TikTok app se |
 | `APP_SCHEME` | `qvmauth` (default; manifest mein bhi yehi hai) |
 
